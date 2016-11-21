@@ -1,0 +1,31 @@
+PODS:
+  - DVVActionSheetView (1.0.1)
+  - DVVAlertView (1.0.2)
+
+DEPENDENCIES:
+  - DVVActionSheetView (from `https://github.com/devdawei/DVVActionSheetView.git`, tag `v1.0.1`)
+  - DVVAlertView (from `https://github.com/devdawei/DVVAlertView.git`, tag `v1.0.2`)
+
+EXTERNAL SOURCES:
+  DVVActionSheetView:
+    :git: https://github.com/devdawei/DVVActionSheetView.git
+    :tag: v1.0.1
+  DVVAlertView:
+    :git: https://github.com/devdawei/DVVAlertView.git
+    :tag: v1.0.2
+
+CHECKOUT OPTIONS:
+  DVVActionSheetView:
+    :git: https://github.com/devdawei/DVVActionSheetView.git
+    :tag: v1.0.1
+  DVVAlertView:
+    :git: https://github.com/devdawei/DVVAlertView.git
+    :tag: v1.0.2
+
+SPEC CHECKSUMS:
+  DVVActionSheetView: 5e0b4ccad42659641ffeb615327f688ddeca722b
+  DVVAlertView: 20534ca4582d008bb12b62532468e73be963b135
+
+PODFILE CHECKSUM: db1ca4740208eb89448eaa58d6a80c756fb92672
+
+COCOAPODS: 1.0.1
