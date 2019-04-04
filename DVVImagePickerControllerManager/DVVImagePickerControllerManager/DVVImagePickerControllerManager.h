@@ -19,9 +19,9 @@
     在此方法中处理拍照或选择的图片
     例如：
       1.获取原图片
-        UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
+        UIImage *originalImage = [info valueForKey:UIImagePickerControllerOriginalImage];
       2.获取编辑过后的图片
-        UIImage *image = [info valueForKey:UIImagePickerControllerEditedImage];
+        UIImage *editedImage = [info valueForKey:UIImagePickerControllerEditedImage];
  *
  *  @param fromController 从此控制器present出来UIImagePickerController
  *  @param delegate       执行UIImagePickerController的代理方法的对象

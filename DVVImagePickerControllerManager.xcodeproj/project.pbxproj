@@ -1,1241 +1,623 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00C3AB59BBDA1EFE4C58DCD0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2290482F76325F28BB93CC9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-DVVImagePickerControllerManager.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29F633C8A4806043E7972778</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B1A46A0483A09FB7E5FEB120</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2290482F76325F28BB93CC9B</string>
-				<string>F4538CF774BE377594E33BE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B98F3371E09A974D8BC8FA8F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DVVImagePickerControllerManager.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9D2F8F61DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9011DE2D83800AF3BAC</string>
-				<string>D9D2F91B1DE2D83800AF3BAC</string>
-				<string>D9D2F9261DE2D83800AF3BAC</string>
-				<string>D9D2F9001DE2D83800AF3BAC</string>
-				<string>B1A46A0483A09FB7E5FEB120</string>
-				<string>DBEBDC62BABACC2B441ED2D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F8F71DE2D83800AF3BAC</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0820</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>devdawei</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>D9D2F8FE1DE2D83800AF3BAC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>D9D2F9171DE2D83800AF3BAC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>D9D2F8FE1DE2D83800AF3BAC</string>
-					</dict>
-					<key>D9D2F9221DE2D83800AF3BAC</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>D9D2F8FE1DE2D83800AF3BAC</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D9D2F8FA1DE2D83800AF3BAC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D9D2F8F61DE2D83800AF3BAC</string>
-			<key>productRefGroup</key>
-			<string>D9D2F9001DE2D83800AF3BAC</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D9D2F8FE1DE2D83800AF3BAC</string>
-				<string>D9D2F9171DE2D83800AF3BAC</string>
-				<string>D9D2F9221DE2D83800AF3BAC</string>
-			</array>
-		</dict>
-		<key>D9D2F8FA1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9D2F92A1DE2D83800AF3BAC</string>
-				<string>D9D2F92B1DE2D83800AF3BAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9D2F8FB1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9D2F9381DE2D8DA00AF3BAC</string>
-				<string>D9D2F90A1DE2D83800AF3BAC</string>
-				<string>D9D2F9071DE2D83800AF3BAC</string>
-				<string>D9D2F9041DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F8FC1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E53ECD00CD9FF2A558FBFCDC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F8FD1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9D2F9121DE2D83800AF3BAC</string>
-				<string>D9D2F90F1DE2D83800AF3BAC</string>
-				<string>D9D2F90D1DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F8FE1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D9D2F92C1DE2D83800AF3BAC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>00C3AB59BBDA1EFE4C58DCD0</string>
-				<string>D9D2F8FB1DE2D83800AF3BAC</string>
-				<string>D9D2F8FC1DE2D83800AF3BAC</string>
-				<string>D9D2F8FD1DE2D83800AF3BAC</string>
-				<string>29F633C8A4806043E7972778</string>
-				<string>F1C2221FD8A575BF1737BF78</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DVVImagePickerControllerManager</string>
-			<key>productName</key>
-			<string>DVVImagePickerControllerManager</string>
-			<key>productReference</key>
-			<string>D9D2F8FF1DE2D83800AF3BAC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D9D2F8FF1DE2D83800AF3BAC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManager.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9D2F9001DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F8FF1DE2D83800AF3BAC</string>
-				<string>D9D2F9181DE2D83800AF3BAC</string>
-				<string>D9D2F9231DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9011DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9351DE2D87A00AF3BAC</string>
-				<string>D9D2F9051DE2D83800AF3BAC</string>
-				<string>D9D2F9061DE2D83800AF3BAC</string>
-				<string>D9D2F9081DE2D83800AF3BAC</string>
-				<string>D9D2F9091DE2D83800AF3BAC</string>
-				<string>D9D2F90B1DE2D83800AF3BAC</string>
-				<string>D9D2F90E1DE2D83800AF3BAC</string>
-				<string>D9D2F9101DE2D83800AF3BAC</string>
-				<string>D9D2F9131DE2D83800AF3BAC</string>
-				<string>D9D2F9021DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9021DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9031DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9031DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9041DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9031DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F9051DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9061DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9071DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9061DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F9081DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9091DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F90A1DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9091DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F90B1DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F90C1DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F90C1DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F90D1DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F90B1DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F90E1DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F90F1DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F90E1DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F9101DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9111DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9111DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9121DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9101DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F9131DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9141DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9D2F91D1DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9151DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9161DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9171DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D9D2F92F1DE2D83800AF3BAC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D9D2F9141DE2D83800AF3BAC</string>
-				<string>D9D2F9151DE2D83800AF3BAC</string>
-				<string>D9D2F9161DE2D83800AF3BAC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D9D2F91A1DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DVVImagePickerControllerManagerTests</string>
-			<key>productName</key>
-			<string>DVVImagePickerControllerManagerTests</string>
-			<key>productReference</key>
-			<string>D9D2F9181DE2D83800AF3BAC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>D9D2F9181DE2D83800AF3BAC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9D2F9191DE2D83800AF3BAC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D9D2F8F71DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D9D2F8FE1DE2D83800AF3BAC</string>
-			<key>remoteInfo</key>
-			<string>DVVImagePickerControllerManager</string>
-		</dict>
-		<key>D9D2F91A1DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D9D2F8FE1DE2D83800AF3BAC</string>
-			<key>targetProxy</key>
-			<string>D9D2F9191DE2D83800AF3BAC</string>
-		</dict>
-		<key>D9D2F91B1DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F91C1DE2D83800AF3BAC</string>
-				<string>D9D2F91E1DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F91C1DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F91D1DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F91C1DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F91E1DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F91F1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D9D2F9281DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9201DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9211DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9D2F9221DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D9D2F9321DE2D83800AF3BAC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D9D2F91F1DE2D83800AF3BAC</string>
-				<string>D9D2F9201DE2D83800AF3BAC</string>
-				<string>D9D2F9211DE2D83800AF3BAC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D9D2F9251DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DVVImagePickerControllerManagerUITests</string>
-			<key>productName</key>
-			<string>DVVImagePickerControllerManagerUITests</string>
-			<key>productReference</key>
-			<string>D9D2F9231DE2D83800AF3BAC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>D9D2F9231DE2D83800AF3BAC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D9D2F9241DE2D83800AF3BAC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D9D2F8F71DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D9D2F8FE1DE2D83800AF3BAC</string>
-			<key>remoteInfo</key>
-			<string>DVVImagePickerControllerManager</string>
-		</dict>
-		<key>D9D2F9251DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D9D2F8FE1DE2D83800AF3BAC</string>
-			<key>targetProxy</key>
-			<string>D9D2F9241DE2D83800AF3BAC</string>
-		</dict>
-		<key>D9D2F9261DE2D83800AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9271DE2D83800AF3BAC</string>
-				<string>D9D2F9291DE2D83800AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9271DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManagerUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9281DE2D83800AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9271DE2D83800AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9D2F9291DE2D83800AF3BAC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F92A1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9D2F92B1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9D2F92C1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9D2F92D1DE2D83800AF3BAC</string>
-				<string>D9D2F92E1DE2D83800AF3BAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9D2F92D1DE2D83800AF3BAC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2290482F76325F28BB93CC9B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManager/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManager</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9D2F92E1DE2D83800AF3BAC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F4538CF774BE377594E33BE5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManager/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManager</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9D2F92F1DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9D2F9301DE2D83800AF3BAC</string>
-				<string>D9D2F9311DE2D83800AF3BAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9D2F9301DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManagerTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManagerTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/DVVImagePickerControllerManager.app/DVVImagePickerControllerManager</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9D2F9311DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManagerTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManagerTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/DVVImagePickerControllerManager.app/DVVImagePickerControllerManager</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9D2F9321DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D9D2F9331DE2D83800AF3BAC</string>
-				<string>D9D2F9341DE2D83800AF3BAC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D9D2F9331DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManagerUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManagerUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>DVVImagePickerControllerManager</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9D2F9341DE2D83800AF3BAC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>DVVImagePickerControllerManagerUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.devdawei.DVVImagePickerControllerManagerUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>DVVImagePickerControllerManager</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D9D2F9351DE2D87A00AF3BAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9D2F9361DE2D8DA00AF3BAC</string>
-				<string>D9D2F9371DE2D8DA00AF3BAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9361DE2D8DA00AF3BAC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9371DE2D8DA00AF3BAC</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DVVImagePickerControllerManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D2F9381DE2D8DA00AF3BAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D2F9371DE2D8DA00AF3BAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBEBDC62BABACC2B441ED2D1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B98F3371E09A974D8BC8FA8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E53ECD00CD9FF2A558FBFCDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B98F3371E09A974D8BC8FA8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F1C2221FD8A575BF1737BF78</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F4538CF774BE377594E33BE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-DVVImagePickerControllerManager.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D9D2F8F71DE2D83800AF3BAC</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9D2F9041DE2D83800AF3BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F9031DE2D83800AF3BAC /* main.m */; };
+		D9D2F9071DE2D83800AF3BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F9061DE2D83800AF3BAC /* AppDelegate.m */; };
+		D9D2F90A1DE2D83800AF3BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F9091DE2D83800AF3BAC /* ViewController.m */; };
+		D9D2F90D1DE2D83800AF3BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D2F90B1DE2D83800AF3BAC /* Main.storyboard */; };
+		D9D2F90F1DE2D83800AF3BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D2F90E1DE2D83800AF3BAC /* Assets.xcassets */; };
+		D9D2F9121DE2D83800AF3BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D2F9101DE2D83800AF3BAC /* LaunchScreen.storyboard */; };
+		D9D2F91D1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F91C1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.m */; };
+		D9D2F9281DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F9271DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.m */; };
+		D9D2F9381DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D2F9371DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.m */; };
+		E53ECD00CD9FF2A558FBFCDC /* libPods-DVVImagePickerControllerManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98F3371E09A974D8BC8FA8F /* libPods-DVVImagePickerControllerManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D2F9191DE2D83800AF3BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D2F8F71DE2D83800AF3BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D2F8FE1DE2D83800AF3BAC;
+			remoteInfo = DVVImagePickerControllerManager;
+		};
+		D9D2F9241DE2D83800AF3BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D2F8F71DE2D83800AF3BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D2F8FE1DE2D83800AF3BAC;
+			remoteInfo = DVVImagePickerControllerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2290482F76325F28BB93CC9B /* Pods-DVVImagePickerControllerManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVImagePickerControllerManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B98F3371E09A974D8BC8FA8F /* libPods-DVVImagePickerControllerManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVVImagePickerControllerManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2F8FF1DE2D83800AF3BAC /* DVVImagePickerControllerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVImagePickerControllerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2F9031DE2D83800AF3BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9D2F9051DE2D83800AF3BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9D2F9061DE2D83800AF3BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9D2F9081DE2D83800AF3BAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9D2F9091DE2D83800AF3BAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9D2F90C1DE2D83800AF3BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D2F90E1DE2D83800AF3BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D2F9111DE2D83800AF3BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D2F9131DE2D83800AF3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D2F9181DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVImagePickerControllerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2F91C1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVImagePickerControllerManagerTests.m; sourceTree = "<group>"; };
+		D9D2F91E1DE2D83800AF3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D2F9231DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVImagePickerControllerManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2F9271DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVImagePickerControllerManagerUITests.m; sourceTree = "<group>"; };
+		D9D2F9291DE2D83800AF3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D2F9361DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVImagePickerControllerManager.h; sourceTree = "<group>"; };
+		D9D2F9371DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVImagePickerControllerManager.m; sourceTree = "<group>"; };
+		F4538CF774BE377594E33BE5 /* Pods-DVVImagePickerControllerManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVImagePickerControllerManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVVImagePickerControllerManager/Pods-DVVImagePickerControllerManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D2F8FC1DE2D83800AF3BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53ECD00CD9FF2A558FBFCDC /* libPods-DVVImagePickerControllerManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F9151DE2D83800AF3BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F9201DE2D83800AF3BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1A46A0483A09FB7E5FEB120 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2290482F76325F28BB93CC9B /* Pods-DVVImagePickerControllerManager.debug.xcconfig */,
+				F4538CF774BE377594E33BE5 /* Pods-DVVImagePickerControllerManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9D2F8F61DE2D83800AF3BAC = {
+			isa = PBXGroup;
+			children = (
+				D9D2F9011DE2D83800AF3BAC /* DVVImagePickerControllerManager */,
+				D9D2F91B1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests */,
+				D9D2F9261DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests */,
+				D9D2F9001DE2D83800AF3BAC /* Products */,
+				B1A46A0483A09FB7E5FEB120 /* Pods */,
+				DBEBDC62BABACC2B441ED2D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D2F9001DE2D83800AF3BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F8FF1DE2D83800AF3BAC /* DVVImagePickerControllerManager.app */,
+				D9D2F9181DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.xctest */,
+				D9D2F9231DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D2F9011DE2D83800AF3BAC /* DVVImagePickerControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F9351DE2D87A00AF3BAC /* DVVImagePickerControllerManager */,
+				D9D2F9051DE2D83800AF3BAC /* AppDelegate.h */,
+				D9D2F9061DE2D83800AF3BAC /* AppDelegate.m */,
+				D9D2F9081DE2D83800AF3BAC /* ViewController.h */,
+				D9D2F9091DE2D83800AF3BAC /* ViewController.m */,
+				D9D2F90B1DE2D83800AF3BAC /* Main.storyboard */,
+				D9D2F90E1DE2D83800AF3BAC /* Assets.xcassets */,
+				D9D2F9101DE2D83800AF3BAC /* LaunchScreen.storyboard */,
+				D9D2F9131DE2D83800AF3BAC /* Info.plist */,
+				D9D2F9021DE2D83800AF3BAC /* Supporting Files */,
+			);
+			path = DVVImagePickerControllerManager;
+			sourceTree = "<group>";
+		};
+		D9D2F9021DE2D83800AF3BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F9031DE2D83800AF3BAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D2F91B1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F91C1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.m */,
+				D9D2F91E1DE2D83800AF3BAC /* Info.plist */,
+			);
+			path = DVVImagePickerControllerManagerTests;
+			sourceTree = "<group>";
+		};
+		D9D2F9261DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F9271DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.m */,
+				D9D2F9291DE2D83800AF3BAC /* Info.plist */,
+			);
+			path = DVVImagePickerControllerManagerUITests;
+			sourceTree = "<group>";
+		};
+		D9D2F9351DE2D87A00AF3BAC /* DVVImagePickerControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				D9D2F9361DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.h */,
+				D9D2F9371DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.m */,
+			);
+			path = DVVImagePickerControllerManager;
+			sourceTree = "<group>";
+		};
+		DBEBDC62BABACC2B441ED2D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B98F3371E09A974D8BC8FA8F /* libPods-DVVImagePickerControllerManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D2F8FE1DE2D83800AF3BAC /* DVVImagePickerControllerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D2F92C1DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManager" */;
+			buildPhases = (
+				00C3AB59BBDA1EFE4C58DCD0 /* [CP] Check Pods Manifest.lock */,
+				D9D2F8FB1DE2D83800AF3BAC /* Sources */,
+				D9D2F8FC1DE2D83800AF3BAC /* Frameworks */,
+				D9D2F8FD1DE2D83800AF3BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVImagePickerControllerManager;
+			productName = DVVImagePickerControllerManager;
+			productReference = D9D2F8FF1DE2D83800AF3BAC /* DVVImagePickerControllerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D2F9171DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D2F92F1DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManagerTests" */;
+			buildPhases = (
+				D9D2F9141DE2D83800AF3BAC /* Sources */,
+				D9D2F9151DE2D83800AF3BAC /* Frameworks */,
+				D9D2F9161DE2D83800AF3BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D2F91A1DE2D83800AF3BAC /* PBXTargetDependency */,
+			);
+			name = DVVImagePickerControllerManagerTests;
+			productName = DVVImagePickerControllerManagerTests;
+			productReference = D9D2F9181DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D2F9221DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D2F9321DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManagerUITests" */;
+			buildPhases = (
+				D9D2F91F1DE2D83800AF3BAC /* Sources */,
+				D9D2F9201DE2D83800AF3BAC /* Frameworks */,
+				D9D2F9211DE2D83800AF3BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D2F9251DE2D83800AF3BAC /* PBXTargetDependency */,
+			);
+			name = DVVImagePickerControllerManagerUITests;
+			productName = DVVImagePickerControllerManagerUITests;
+			productReference = D9D2F9231DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D2F8F71DE2D83800AF3BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = devdawei;
+				TargetAttributes = {
+					D9D2F8FE1DE2D83800AF3BAC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D9D2F9171DE2D83800AF3BAC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9D2F8FE1DE2D83800AF3BAC;
+					};
+					D9D2F9221DE2D83800AF3BAC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9D2F8FE1DE2D83800AF3BAC;
+					};
+				};
+			};
+			buildConfigurationList = D9D2F8FA1DE2D83800AF3BAC /* Build configuration list for PBXProject "DVVImagePickerControllerManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D2F8F61DE2D83800AF3BAC;
+			productRefGroup = D9D2F9001DE2D83800AF3BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D2F8FE1DE2D83800AF3BAC /* DVVImagePickerControllerManager */,
+				D9D2F9171DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests */,
+				D9D2F9221DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D2F8FD1DE2D83800AF3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2F9121DE2D83800AF3BAC /* LaunchScreen.storyboard in Resources */,
+				D9D2F90F1DE2D83800AF3BAC /* Assets.xcassets in Resources */,
+				D9D2F90D1DE2D83800AF3BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F9161DE2D83800AF3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F9211DE2D83800AF3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C3AB59BBDA1EFE4C58DCD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVVImagePickerControllerManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D2F8FB1DE2D83800AF3BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2F9381DE2D8DA00AF3BAC /* DVVImagePickerControllerManager.m in Sources */,
+				D9D2F90A1DE2D83800AF3BAC /* ViewController.m in Sources */,
+				D9D2F9071DE2D83800AF3BAC /* AppDelegate.m in Sources */,
+				D9D2F9041DE2D83800AF3BAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F9141DE2D83800AF3BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2F91D1DE2D83800AF3BAC /* DVVImagePickerControllerManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D2F91F1DE2D83800AF3BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D2F9281DE2D83800AF3BAC /* DVVImagePickerControllerManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D2F91A1DE2D83800AF3BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D2F8FE1DE2D83800AF3BAC /* DVVImagePickerControllerManager */;
+			targetProxy = D9D2F9191DE2D83800AF3BAC /* PBXContainerItemProxy */;
+		};
+		D9D2F9251DE2D83800AF3BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D2F8FE1DE2D83800AF3BAC /* DVVImagePickerControllerManager */;
+			targetProxy = D9D2F9241DE2D83800AF3BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9D2F90B1DE2D83800AF3BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D2F90C1DE2D83800AF3BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D2F9101DE2D83800AF3BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D2F9111DE2D83800AF3BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9D2F92A1DE2D83800AF3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D2F92B1DE2D83800AF3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D2F92D1DE2D83800AF3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2290482F76325F28BB93CC9B /* Pods-DVVImagePickerControllerManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DVVImagePickerControllerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		D9D2F92E1DE2D83800AF3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4538CF774BE377594E33BE5 /* Pods-DVVImagePickerControllerManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DVVImagePickerControllerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		D9D2F9301DE2D83800AF3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVImagePickerControllerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVImagePickerControllerManager.app/DVVImagePickerControllerManager";
+			};
+			name = Debug;
+		};
+		D9D2F9311DE2D83800AF3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVImagePickerControllerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVImagePickerControllerManager.app/DVVImagePickerControllerManager";
+			};
+			name = Release;
+		};
+		D9D2F9331DE2D83800AF3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVVImagePickerControllerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVVImagePickerControllerManager;
+			};
+			name = Debug;
+		};
+		D9D2F9341DE2D83800AF3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DVVImagePickerControllerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVImagePickerControllerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DVVImagePickerControllerManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D2F8FA1DE2D83800AF3BAC /* Build configuration list for PBXProject "DVVImagePickerControllerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D2F92A1DE2D83800AF3BAC /* Debug */,
+				D9D2F92B1DE2D83800AF3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D2F92C1DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D2F92D1DE2D83800AF3BAC /* Debug */,
+				D9D2F92E1DE2D83800AF3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D2F92F1DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D2F9301DE2D83800AF3BAC /* Debug */,
+				D9D2F9311DE2D83800AF3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D2F9321DE2D83800AF3BAC /* Build configuration list for PBXNativeTarget "DVVImagePickerControllerManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D2F9331DE2D83800AF3BAC /* Debug */,
+				D9D2F9341DE2D83800AF3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D2F8F71DE2D83800AF3BAC /* Project object */;
+}

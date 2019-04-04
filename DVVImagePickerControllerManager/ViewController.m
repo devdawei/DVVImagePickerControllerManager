@@ -36,9 +36,10 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     [picker dismissViewControllerAnimated:YES completion:nil];
-    UIImage *image = [info valueForKey:UIImagePickerControllerEditedImage]; // 编辑过后的图片
-    
-    _imageView.image = image;
+//    UIImage *originalImage = [info valueForKey:UIImagePickerControllerOriginalImage]; // 原图
+//    _imageView.image = originalImage;
+    UIImage *editedImage = [info valueForKey:UIImagePickerControllerEditedImage]; // 编辑后的图片
+    _imageView.image = editedImage;
 }
 
 - (void)didReceiveMemoryWarning {
